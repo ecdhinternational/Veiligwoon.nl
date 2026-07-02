@@ -42,7 +42,14 @@
           Je kunt ons bereiken voor vragen, correcties, aanvullingen, samenwerkingen of opmerkingen over de inhoud van VeiligWoon.
         </div>
 
-        <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+       <form
+  name="contact"
+  method="POST"
+  action="/bedankt/"
+  netlify
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  class="contact-form">
           <input type="hidden" name="form-name" value="contact">
           <p class="hidden-field">
             <label>Laat dit veld leeg: <input name="bot-field"></label>
