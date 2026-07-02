@@ -64,3 +64,62 @@ footer{padding:46px 0;color:var(--muted);border-top:1px solid var(--line);margin
 @media(max-width:640px){
   .form-grid{grid-template-columns:1fr}
 }
+
+.cookie-banner{
+  position:fixed;
+  left:20px;
+  right:20px;
+  bottom:20px;
+  z-index:9999;
+  max-width:1100px;
+  margin:0 auto;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:22px;
+  box-shadow:0 20px 60px rgba(15,23,42,.18);
+  padding:18px;
+  display:flex;
+  gap:18px;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.cookie-banner__text p{
+  margin:6px 0;
+  color:var(--muted);
+}
+
+.cookie-banner__text a{
+  color:var(--blue2);
+  font-weight:800;
+}
+
+.cookie-banner__actions{
+  display:flex;
+  gap:10px;
+  flex-shrink:0;
+}
+
+.btn--secondary{
+  background:#f3f6f8;
+  color:var(--text);
+}
+
+@media(max-width:700px){
+  .cookie-banner{
+    flex-direction:column;
+    align-items:flex-start;
+    left:12px;
+    right:12px;
+    bottom:12px;
+  }
+
+  .cookie-banner__actions{
+    width:100%;
+  }
+
+  .cookie-banner__actions .btn{
+    flex:1;
+    text-align:center;
+  }
+}
