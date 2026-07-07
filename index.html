@@ -13,8 +13,8 @@
 <body>
 <header>
   <div class="wrap nav">
-    <a class="logo" href="/"><span class="logo-mark">🛡️</span><span>VeiligWoon</span></a>
-    <nav class="menu">
+    <a class="logo" href="/" aria-label="VeiligWoon home"><span class="logo-mark">🛡️</span><span>VeiligWoon</span></a>
+    <nav class="menu" aria-label="Hoofdnavigatie">
       <a href="/#zoek">Waar zoek je naar?</a>
       <a href="/#categorieen">Categorieën</a>
       <a href="/#keuzehulpen">Keuzehulpen</a>
@@ -27,47 +27,47 @@
 <main>
   <section class="hero">
     <div class="wrap hero-grid">
-      <div>
+      <div class="hero-copy">
         <div class="badge">Onafhankelijke gids voor woningveiligheid</div>
         <h1>Maak je woning veiliger.</h1>
         <p class="lead">Praktische keuzehulpen voor alarmsystemen, beveiligingscamera's, videodeurbellen, slimme sloten, brandveiligheid en waterveiligheid. Duidelijke uitleg, slimme kooptips en geen onnodige verkooppraat.</p>
-        <div class="hero-actions">
+        <div class="actions">
           <a class="btn primary" href="/alarmsystemen/">Ik zoek een alarmsysteem →</a>
           <a class="btn" href="/cameras/">Camera's vergelijken →</a>
-          <a class="btn" href="#keuzehulpen">Bekijk alle gidsen</a>
+          <a class="btn ghost" href="#keuzehulpen">Bekijk alle gidsen</a>
         </div>
-        <div class="trust-row">
+        <div class="trust" aria-label="Waarom bezoekers VeiligWoon kunnen vertrouwen">
           <span>✓ Geen nep-reviews</span>
           <span>✓ Praktische uitleg</span>
           <span>✓ Gratis toegankelijk</span>
         </div>
       </div>
 
-      <div class="hero-card">
+      <aside class="hero-card" aria-label="Waarom VeiligWoon">
         <h2>Waarom VeiligWoon?</h2>
-        <div class="check-list">
-          <div><strong>Keuzehulpen</strong><span>Begin bij je situatie, niet bij een productlijst.</span></div>
-          <div><strong>Geen nep-reviews</strong><span>We zijn transparant over hoe onze informatie tot stand komt.</span></div>
-          <div><strong>Commercieel waar logisch</strong><span>Aanbevelingen komen pas na uitleg.</span></div>
-          <div><strong>Nederlandse focus</strong><span>Gidsen voor woningen, regels en situaties hier.</span></div>
+        <div class="why-list">
+          <div class="why-item"><span class="why-dot">1</span><div><b>Keuzehulpen</b><span>Begin bij je situatie, niet bij een productlijst.</span></div></div>
+          <div class="why-item"><span class="why-dot">2</span><div><b>Geen nep-reviews</b><span>We zijn transparant over hoe onze informatie tot stand komt.</span></div></div>
+          <div class="why-item"><span class="why-dot">3</span><div><b>Commercieel waar logisch</b><span>Aanbevelingen komen pas na uitleg.</span></div></div>
+          <div class="why-item"><span class="why-dot">4</span><div><b>Nederlandse focus</b><span>Gidsen voor woningen, regels en situaties hier.</span></div></div>
         </div>
-      </div>
+      </aside>
     </div>
   </section>
 
-  <section id="zoek">
+  <section id="zoek" class="section-soft">
     <div class="wrap">
       <div class="section-head">
         <h2>Waar ben je naar op zoek?</h2>
         <p>Kies eerst wat je wilt verbeteren. Daarna helpen we je met de juiste oplossing.</p>
       </div>
       <div class="quick-grid">
-        <a href="/alarmsystemen/">🚨 Alarmsystemen</a>
-        <a href="/cameras/">📷 Camera's</a>
-        <a href="/videodeurbellen/">🔔 Videodeurbellen</a>
-        <a href="/slimme-sloten/">🔐 Slimme sloten</a>
-        <a href="/brandveiligheid/">🔥 Brandveiligheid</a>
-        <a href="/waterveiligheid/">💧 Waterveiligheid</a>
+        <a class="quick" href="/alarmsystemen/"><span>🚨</span>Alarmsystemen</a>
+        <a class="quick" href="/cameras/"><span>📷</span>Camera's</a>
+        <a class="quick" href="/videodeurbellen/"><span>🔔</span>Videodeurbellen</a>
+        <a class="quick" href="/slimme-sloten/"><span>🔐</span>Slimme sloten</a>
+        <a class="quick" href="/brandveiligheid/"><span>🔥</span>Brandveiligheid</a>
+        <a class="quick" href="/waterveiligheid/"><span>💧</span>Waterveiligheid</a>
       </div>
     </div>
   </section>
@@ -92,21 +92,22 @@
 
   <section>
     <div class="wrap split">
-      <div>
+      <div class="split-copy">
+        <p class="eyebrow">Slimmer kiezen</p>
         <h2>Begin bij je risico, niet bij een product.</h2>
         <p>Niet iedere woning heeft direct een uitgebreid alarmsysteem nodig. Soms levert een rookmelder, buitenverlichting of waterleksensor meer op. Kies eerst het risico dat je wilt verkleinen en daarna pas de oplossing die daarbij past.</p>
         <a class="btn primary" href="/hoe-wij-vergelijken/">Lees hoe wij vergelijken →</a>
       </div>
       <div class="steps">
-        <div><span>1</span><strong>Bepaal je risico</strong><p>Inbraak, brand, koolmonoxide, waterschade of toegang.</p></div>
-        <div><span>2</span><strong>Vergelijk oplossingen</strong><p>Camera, alarm, sensor, slot of preventieve maatregel.</p></div>
-        <div><span>3</span><strong>Let op vaste kosten</strong><p>Cloudopslag, meldkamer en abonnementen maken veel verschil.</p></div>
-        <div><span>4</span><strong>Kies wat past</strong><p>Niet de duurste oplossing, maar de oplossing die bij je woning past.</p></div>
+        <div class="step"><span class="step-num">1</span><div><strong>Bepaal je risico</strong><p>Inbraak, brand, koolmonoxide, waterschade of toegang.</p></div></div>
+        <div class="step"><span class="step-num">2</span><div><strong>Vergelijk oplossingen</strong><p>Camera, alarm, sensor, slot of preventieve maatregel.</p></div></div>
+        <div class="step"><span class="step-num">3</span><div><strong>Let op vaste kosten</strong><p>Cloudopslag, meldkamer en abonnementen maken veel verschil.</p></div></div>
+        <div class="step"><span class="step-num">4</span><div><strong>Kies wat past</strong><p>Niet de duurste oplossing, maar de oplossing die bij je woning past.</p></div></div>
       </div>
     </div>
   </section>
 
-  <section id="keuzehulpen">
+  <section id="keuzehulpen" class="section-soft">
     <div class="wrap">
       <div class="section-head">
         <h2>Populaire keuzehulpen</h2>
