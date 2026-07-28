@@ -1,3 +1,5 @@
+/* Update trigger: 2026-07-28 */
+
 :root{
   --bg:#f6f8fb;
   --paper:#fff;
@@ -297,52 +299,25 @@ img, video, iframe{
   right:24px;
   bottom:24px;
   z-index:9999;
-
   max-width:1100px;
   margin:0 auto;
   padding:22px 26px;
-
   display:flex;
   align-items:center;
   justify-content:space-between;
   gap:24px;
-
   background:#fff;
   border:1px solid var(--line);
   border-radius:24px;
   box-shadow:0 18px 50px rgba(18,53,91,.18);
 }
 
-.cookie-banner__text{
-  flex:1;
-}
-
-.cookie-banner__text strong{
-  display:block;
-  font-size:18px;
-  margin-bottom:6px;
-}
-
-.cookie-banner__text p{
-  margin:0 0 8px;
-  color:var(--muted);
-}
-
-.cookie-banner__text a{
-  color:var(--blue2);
-  font-weight:800;
-}
-
-.cookie-banner__actions{
-  display:flex;
-  gap:12px;
-  flex-shrink:0;
-}
-
-.cookie-banner .btn{
-  cursor:pointer;
-}
-
+.cookie-banner__text{flex:1}
+.cookie-banner__text strong{display:block;font-size:18px;margin-bottom:6px}
+.cookie-banner__text p{margin:0 0 8px;color:var(--muted)}
+.cookie-banner__text a{color:var(--blue2);font-weight:800}
+.cookie-banner__actions{display:flex;gap:12px;flex-shrink:0}
+.cookie-banner .btn{cursor:pointer}
 .cookie-banner #cookie-accept{
   background:linear-gradient(135deg,var(--green),#0d9488);
   color:#fff;
@@ -368,5 +343,4 @@ img, video, iframe{
     width:100%;
     justify-content:center;
   }
-}
 }
